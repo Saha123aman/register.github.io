@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To our College</title>
+    <style>
+        body{
+            font-weight: bold;
+        }
+        .form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        input{
+            text-align: center;
+            padding:8px;
+            margin:8px;
+            width:30%;
+        }
+        .num{
+            margin:20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="index2.php" class="form" method="post">
+        Name<input type="text" name="name" placeholder="Enter your name"><br>
+        Email<input type="text"  name="email" placeholder="Enter your email"><br>
+        City<input type="text"  name="city" placeholder="Enter your city">
+        Phone Number<input type="text" class="num"  name="mobile" placeholder="Enter your phone number">
+        <button class="but">Submit</button>
+    </form>
+    
+</body>
+</html>
